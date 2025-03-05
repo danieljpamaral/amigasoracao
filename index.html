@@ -553,7 +553,14 @@
       const resultLink = `${baseUrl}?token=${token}`;
       
       // Mensagem personalizada
-      const message = `Olá ${participantName}! Você foi selecionada para orar por alguém especial no nosso grupo de Amigas de Oração. Clique no link para descobrir quem é: ${resultLink}`;
+      const message = `A paz do Senhor irmã ${participantName}! 
+      
+      É com alegria que compartilho o nome da sua Amiga de Oração! A partir de hoje, você tem a missão especial de orar por ela, intercedendo por sua vida, família e caminhada com Deus.
+      
+      Sua Amiga de Oração é: *${friendName}*
+      
+    
+      `;
       
       // Armazenar o resultado no localStorage para consulta posterior
       localStorage.setItem(token, friendName);
